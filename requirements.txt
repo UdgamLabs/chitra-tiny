@@ -1,0 +1,8 @@
+torch
+transformers
+diffusers
+safetensors
+huggingface_hub
+pillow
+# for app.py only:
+gradio

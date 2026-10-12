@@ -1,0 +1,46 @@
+/* Page-specific additions to the shared walkthrough styles (site.css). Same palette and type. */
+.specimen-image{border:1px solid var(--line);background:white;margin:6px 0 18px}
+.specimen-image img{width:100%;aspect-ratio:1;image-rendering:auto}
+.hero-specimen .specimen-input{font-size:clamp(24px,2.4vw,30px);margin:22px 0}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:0;padding:0;list-style:none}
+.gallery figure{background:white;border:1px solid var(--line);padding:8px 8px 12px}
+.gallery img{width:100%;aspect-ratio:1}
+.gallery figcaption{border:0;padding:10px 2px 0;font-size:12px;line-height:1.45;color:var(--ink)}
+.gallery-method{margin-top:22px;max-width:900px}
+.diagram{background:white;border:1px solid var(--line);padding:22px;margin-bottom:28px}
+.diagram svg{width:100%;height:auto;display:block}
+.diagram text{font-family:var(--body)}
+.explore{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:50px}
+.explore h3{font-size:16px;margin-bottom:8px}
+.explore>div>p{font-size:14px;color:var(--muted);margin-bottom:16px;min-height:66px}
+.dial{display:flex;border:1px solid var(--line);margin-bottom:14px;background:var(--paper)}
+.dial button{flex:1;min-height:46px;border:0;border-right:1px solid var(--line);background:transparent;color:var(--muted);font:12px var(--mono)}
+.dial button:last-child{border-right:0}
+.dial button[aria-pressed=true]{background:var(--green);color:var(--paper)}
+.dial button:hover:not([aria-pressed=true]){background:var(--tint);color:var(--ink)}
+.explore-frame{background:white;border:1px solid var(--line);padding:8px}
+.explore-frame img{width:100%;aspect-ratio:1}
+.explore-note{font-size:12px;color:var(--green);margin-top:10px;min-height:40px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-block:1px solid var(--line);margin-bottom:10px}
+.metrics>div{padding:26px 24px 24px 0}
+.metrics>div+div{padding-left:24px;border-left:1px solid var(--line)}
+.metrics strong{display:block;font:400 54px/1 var(--display);color:var(--green);letter-spacing:-.05em}
+.metrics span{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin:12px 0 8px}
+.metrics p{font-size:13px;color:var(--muted)}
+.bars{margin:8px 0 0;padding:0;list-style:none}
+.bars li{display:grid;grid-template-columns:150px 1fr 1fr;gap:16px;align-items:center;padding:9px 0;border-top:1px solid var(--line);font-size:13px}
+.bars li.head{font-size:11px;color:var(--muted);border-top:0}
+.bar{position:relative;height:18px;background:var(--tint)}
+.bar i{position:absolute;inset:0 auto 0 0;background:var(--green)}
+.bar.ref i{background:#9fb5a8}
+.bar b{position:absolute;left:calc(100% + 6px);top:-1px;font-size:12px;font-weight:700;white-space:nowrap}
+.bar{margin-right:44px}
+.weak{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin:0;padding:0;list-style:none}
+.weak figure{background:white;border:1px solid var(--line);padding:8px 8px 12px}
+.weak img{width:100%;aspect-ratio:1}
+.weak figcaption{border:0;padding:10px 2px 0;font-size:12px;line-height:1.45}
+.weak figcaption em{display:block;font-style:normal;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--warn);margin-bottom:4px}
+.weak figcaption q{display:block;color:var(--ink);margin-bottom:6px}
+.weak figcaption span{color:var(--muted)}
+@media(max-width:1050px){.gallery{grid-template-columns:repeat(3,1fr)}.weak{grid-template-columns:repeat(3,1fr)}.metrics strong{font-size:44px}}
+@media(max-width:760px){.gallery{grid-template-columns:repeat(2,1fr);gap:10px}.gallery figcaption{font-size:11px}.weak{grid-template-columns:repeat(2,1fr);gap:10px}.explore{grid-template-columns:1fr;gap:40px}.explore>div>p{min-height:0}.metrics{grid-template-columns:1fr}.metrics>div,.metrics>div+div{padding:20px 0;border-left:0}.metrics>div+div{border-top:1px solid var(--line)}.bars li{grid-template-columns:96px 1fr 1fr;gap:10px;font-size:12px}.diagram{padding:10px}.dial button{font-size:11px}}

@@ -1,0 +1,193 @@
+{
+ "device": "mps",
+ "steps": 50,
+ "images": [
+  {
+   "file": "gallery_00.jpg",
+   "section": "gallery",
+   "prompt": "a lighthouse on a rocky coast at sunset",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_01.jpg",
+   "section": "gallery",
+   "prompt": "an oil painting of a vase of flowers",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_02.jpg",
+   "section": "gallery",
+   "prompt": "a mountain landscape with snow and pine trees",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_03.jpg",
+   "section": "gallery",
+   "prompt": "a sailing ship on a calm sea",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_04.jpg",
+   "section": "gallery",
+   "prompt": "a black and white photo of a city street",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_05.jpg",
+   "section": "gallery",
+   "prompt": "a watercolor painting of a bird on a branch",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_06.jpg",
+   "section": "gallery",
+   "prompt": "a red car parked in front of a house",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_07.jpg",
+   "section": "gallery",
+   "prompt": "a bridge over a river in autumn",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_08.jpg",
+   "section": "gallery",
+   "prompt": "a castle on a hill under a cloudy sky",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_09.jpg",
+   "section": "gallery",
+   "prompt": "a bowl of soup next to a spoon",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_10.jpg",
+   "section": "gallery",
+   "prompt": "a steam locomotive at a railway station",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "gallery_11.jpg",
+   "section": "gallery",
+   "prompt": "a field of sunflowers on a summer day",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "guidance_01.jpg",
+   "section": "guidance",
+   "prompt": "a cottage in a snowy forest",
+   "seed": 0,
+   "guidance": 1
+  },
+  {
+   "file": "guidance_03.jpg",
+   "section": "guidance",
+   "prompt": "a cottage in a snowy forest",
+   "seed": 0,
+   "guidance": 3
+  },
+  {
+   "file": "guidance_05.jpg",
+   "section": "guidance",
+   "prompt": "a cottage in a snowy forest",
+   "seed": 0,
+   "guidance": 5
+  },
+  {
+   "file": "guidance_07.jpg",
+   "section": "guidance",
+   "prompt": "a cottage in a snowy forest",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "guidance_10.jpg",
+   "section": "guidance",
+   "prompt": "a cottage in a snowy forest",
+   "seed": 0,
+   "guidance": 10
+  },
+  {
+   "file": "seed_0.jpg",
+   "section": "seeds",
+   "prompt": "an old stone church in a green valley",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "seed_1.jpg",
+   "section": "seeds",
+   "prompt": "an old stone church in a green valley",
+   "seed": 1,
+   "guidance": 7
+  },
+  {
+   "file": "seed_2.jpg",
+   "section": "seeds",
+   "prompt": "an old stone church in a green valley",
+   "seed": 2,
+   "guidance": 7
+  },
+  {
+   "file": "seed_3.jpg",
+   "section": "seeds",
+   "prompt": "an old stone church in a green valley",
+   "seed": 3,
+   "guidance": 7
+  },
+  {
+   "file": "weak_0.jpg",
+   "section": "weak",
+   "kind": "counting",
+   "prompt": "three red apples on a table",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "weak_1.jpg",
+   "section": "weak",
+   "kind": "text",
+   "prompt": "a shop sign that says OPEN",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "weak_2.jpg",
+   "section": "weak",
+   "kind": "position",
+   "prompt": "a cup to the left of a laptop",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "weak_3.jpg",
+   "section": "weak",
+   "kind": "faces",
+   "prompt": "a close-up photo of a smiling woman",
+   "seed": 0,
+   "guidance": 7
+  },
+  {
+   "file": "weak_4.jpg",
+   "section": "weak",
+   "kind": "rare object",
+   "prompt": "a frisbee on the grass",
+   "seed": 0,
+   "guidance": 7
+  }
+ ]
+}
