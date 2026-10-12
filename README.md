@@ -2,7 +2,7 @@
 
 # Chitra Tiny
 
-A 212M-parameter English **text-to-image** model that makes 256×256 pictures from a sentence. Built by **Udgam Labs**, a frontier technology lab in India. The image model was trained from scratch, on about 4.7 million public-domain and CC0 images. It runs on a laptop: about 3 seconds per image on an Apple-silicon Mac. *Chitra* (चित्र) means "picture".
+A 212M-parameter English **text-to-image** model that makes 256×256 pictures from a sentence. Built by **Udgam Labs**, a frontier technology lab. The image model was trained from scratch, on about 4.7 million public-domain and CC0 images. It runs on a laptop: about 3 seconds per image on an Apple-silicon Mac. *Chitra* (चित्र) means "picture".
 
 **Public release, 12 October 2026:** weights and model card on [Hugging Face](https://huggingface.co/UdgamLabs/Chitra-Tiny), a [visual walkthrough](https://udgamlabs.github.io/chitra-tiny/), and code, examples and checksums in this repository. Apache-2.0.
 
