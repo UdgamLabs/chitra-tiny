@@ -33,7 +33,7 @@ images[0].save("flowers.png")
 
 **Local web playground:** `python app.py`, then open http://127.0.0.1:7860.
 
-It picks the fastest device available: an NVIDIA GPU (`cuda`), Apple silicon (`mps`) or the CPU. On a CPU, expect tens of seconds per image.
+It picks the fastest device available: an NVIDIA GPU (`cuda`), Apple silicon (`mps`) or the CPU. On the CPU of an Apple M6 Mac mini (24 GB), one image took about 12 seconds at 50 steps; slower CPUs will take longer.
 
 **Settings:**
 - **guidance** (default 7): higher follows the prompt more literally; 3–5 gives more variety.

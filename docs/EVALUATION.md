@@ -41,7 +41,7 @@ Stable Diffusion 1.5 has about 860M parameters in its image model (four times Ch
 
 ## Speed
 
-About 3 seconds per image (50 steps) on an Apple-silicon Mac (MPS), including the text encoder and decoder; faster on a recent NVIDIA GPU. On a CPU, expect tens of seconds per image. `steps=25` roughly halves the time.
+About 3 seconds per image (50 steps) on an Apple-silicon Mac (MPS), including the text encoder and decoder; faster on a recent NVIDIA GPU. On the CPU of an Apple M6 Mac mini (24 GB), it took about 12 seconds per image at 50 steps (median of 7 images with PyTorch's default threads, text encoder and decoder included); slower CPUs will take longer. `steps=25` roughly halves the time.
 
 ## Reproducing
 
